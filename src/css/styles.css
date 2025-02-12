@@ -79,6 +79,7 @@ header main h2{
     font-weight: 700;
     max-width: 860px;
     margin-top: 70px;
+    line-height: 100px;
 }
 
 header main p{
@@ -86,6 +87,7 @@ header main p{
     font-weight: 400;
     max-width: 600px;
     margin-top: 30px;
+    line-height: 38px;
 }
 
 header main .input-section{
@@ -158,6 +160,7 @@ header main .input-section svg{
     font-size: 16px;
     font-weight: 400;
     margin-top: 20px;
+    line-height: 30px;
 }
 
 .first-section a{
@@ -266,4 +269,151 @@ header main .input-section svg{
     font-weight: 500;
     color: #E58411;
     margin-right: 10px;
+}
+
+.second-section{
+    background-color: #fff;
+    padding: 0 10%;
+}
+
+.second-section .experiences{
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.second-section .experiences .left-section-experiences{
+    width: 60%;
+}
+
+.second-section .experiences .right-section-experiences{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-section .experiences .right-section-experiences h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: #E58411;
+    letter-spacing: 3px;
+}
+
+.second-section .experiences .right-section-experiences h4{
+    font-size: 42px;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-top: 20px;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+
+.second-section .experiences .right-section-experiences p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #1e1e1e;
+    margin-top: 20px;
+    line-height: 33px;
+}
+
+.second-section .experiences .right-section-experiences a{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.second-section .experiences .right-section-experiences a span{
+    color: #E58411;
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.second-section .materials{
+    margin-top: 270px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section .materials .left-section-materials{
+    width: 50%;
+}
+
+.second-section .materials .right-section-materials{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.second-section .materials .right-section-materials div:first-child{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.second-section .materials .right-section-materials div:first-child img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: #F7F7F7;
+    min-height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 15%;
+}
+
+footer .footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .footer-section div{
+    margin: 25px;
+}
+
+footer .footer-section h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #1e1e1e;
+}
+
+footer .footer-section p{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1e1e1e;
+    line-height: 24px;
+}
+
+footer .footer-section h6{
+    color: #E58411;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+footer .footer-section li a{
+    color: #1e1e1e;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+footer .footer-section svg{
+    margin-right: 10px;
+    vertical-align: -3px;
+}
+
+footer .copy-right{
+    display: flex;
+    justify-content: space-between;
 }
