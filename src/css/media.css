@@ -1,0 +1,61 @@
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    header .main-nav ul li a{
+        display: none;
+    }
+    header .main-nav ul li a ~ svg{
+        display: none;
+    }
+    header main h2{
+        font-size: 40px!important;
+        line-height: 50px!important;
+    }
+    header main p{
+        font-size: 20px!important;
+        line-height: 28px!important;
+        padding: 0 0.5rem;
+    }
+    .first-section{
+    display: flex;
+    justify-content: center!important;
+    }
+    .first-section h3{
+        margin-bottom: 50px!important;
+    }
+    .product-section .card-wrapper .card .card-header{
+        width: 300px!important;
+    }
+    .product-section .card-wrapper .card .card-header{
+        width: 300px!important;
+    }
+    .product-section .card-wrapper .card .card-header{
+        width: 300px!important;
+    }
+    .second-section .experiences{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .second-section .experiences .left-section-experiences{
+        width: 100%!important;
+    }
+    .second-section .experiences .left-section-experiences img{
+        border-radius: 20px!important;
+    }
+    .second-section .experiences .right-section-experiences{
+        width: 100%!important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
