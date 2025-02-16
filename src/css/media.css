@@ -20,8 +20,8 @@
         margin-top: 50px!important;
     }
     .first-section{
-    display: flex;
-    justify-content: center!important;
+        display: flex;
+        justify-content: center!important;
     }
     .first-section h3{
         margin-bottom: 50px!important;
@@ -51,12 +51,16 @@
     .second-section .experiences .right-section-experiences{
         width: 100%!important;
     }
+    .second-section .experiences .right-section-experiences h4{
+        text-wrap: nowrap!important;
+    }
     .second-section .materials{
         display: flex;
         flex-direction: column-reverse;
-        gap: 145px!important;
+        gap: 35px!important;
         width: 100%!important;
-        margin-top: 100px!important;
+        margin-top: 70px!important;
+        text-wrap: nowrap;
     }
     .second-section .materials .left-section-materials{
         width: 100%!important;
@@ -72,10 +76,11 @@
     .second-section .materials .right-section-materials div:last-child{
         width: 100%!important;
         position: relative!important;
-        right: 40px!important;
+        right: 20px!important;
     }
     .second-section .materials .right-section-materials div:last-child img{
         width: 100%!important;
+        height: 70%!important;
         border-radius: 20px;
     }
     .second-section .testimonials{
@@ -84,6 +89,9 @@
     }
     .second-section .testimonials .cards{
         margin-bottom: 100px!important;
+    }
+    footer{
+        padding: 0 5%!important;
     }
     footer .footer-section{
         margin-bottom: 20px;

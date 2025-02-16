@@ -379,6 +379,7 @@ header main .input-section svg{
     line-height: 33px;
     color: #1e1e1e;
     margin-top: 20px;
+    text-wrap: wrap;
 }
 
 .second-section .materials .left-section-materials a{
