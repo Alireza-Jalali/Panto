@@ -14,6 +14,10 @@
         font-size: 20px!important;
         line-height: 28px!important;
         padding: 0 0.5rem;
+        margin-top: 30px!important;
+    }
+    header main .input-section{
+        margin-top: 50px!important;
     }
     .first-section{
     display: flex;
@@ -36,6 +40,7 @@
         align-items: center;
         flex-direction: column;
         gap: 50px;
+        margin-top: 150px!important;
     }
     .second-section .experiences .left-section-experiences{
         width: 100%!important;
@@ -45,6 +50,58 @@
     }
     .second-section .experiences .right-section-experiences{
         width: 100%!important;
+    }
+    .second-section .materials{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 145px!important;
+        width: 100%!important;
+        margin-top: 100px!important;
+    }
+    .second-section .materials .left-section-materials{
+        width: 100%!important;
+    }
+    .second-section .materials .right-section-materials{
+        width: 100%!important;
+        display: flex;
+        justify-content: center;
+    }
+    .second-section .materials .right-section-materials div:first-child{
+        display: none!important;
+    }
+    .second-section .materials .right-section-materials div:last-child{
+        width: 100%!important;
+        position: relative!important;
+        right: 40px!important;
+    }
+    .second-section .materials .right-section-materials div:last-child img{
+        width: 100%!important;
+        border-radius: 20px;
+    }
+    .second-section .testimonials{
+        margin-top: 150px!important;
+    }
+    .second-section .testimonials .cards{
+        margin-bottom: 100px!important;
+    }
+    footer .footer-section{
+        margin-bottom: 20px;
+    }
+    footer .copy-right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    }
+    footer .copy-right div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    footer .copy-right div span:last-child{
+        margin-left: 0!important;
     }
 }
 

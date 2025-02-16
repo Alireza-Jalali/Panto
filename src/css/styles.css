@@ -4,7 +4,7 @@
 
 body {
     font-family: "Gilroy-Regular";
-    overflow-x: hidden;
+    overflow-x: hidden!important;
 }
 
 img{
@@ -293,11 +293,16 @@ header main .input-section svg{
 }
 
 .second-section .experiences .left-section-experiences{
-    width: 60%;
+    width: 50%;
+}
+
+.second-section .experiences .left-section-experiences img{
+    max-width: 629px;
 }
 
 .second-section .experiences .right-section-experiences{
-    width: 40%;
+    width: 50%;
+    max-width: 556px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -417,6 +422,8 @@ header main .input-section svg{
 
 .second-section .testimonials{
     margin-top: 227px;
+    display: flex;
+    flex-direction: column;
 }
 
 .second-section .testimonials .title{
@@ -442,8 +449,13 @@ header main .input-section svg{
 .second-section .testimonials .cards{
     margin: 60px 0 200px 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    gap: 60px;
+}
+
+.second-section .testimonials .cards img{
+    max-width: 370px;
+    height: auto;
 }
 
 footer{
