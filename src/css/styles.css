@@ -424,6 +424,7 @@ header main .input-section svg{
     margin-top: 227px;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .second-section .testimonials .title{

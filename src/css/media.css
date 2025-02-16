@@ -80,6 +80,7 @@
     }
     .second-section .testimonials{
         margin-top: 150px!important;
+        overflow-x: hidden!important;
     }
     .second-section .testimonials .cards{
         margin-bottom: 100px!important;
